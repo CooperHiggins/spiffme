@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://www.spiffme.com/members/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>SpiffMe.com - Dashboard</title>
+<meta name="title" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+<link href="CSS/style.css" rel="stylesheet" type="text/css">
+<script src="./SpiffMe.com - Dashboard_files/jquery.min.js"></script>
+<script src="./SpiffMe.com - Dashboard_files/jquery-ui.js"></script>
+<script src="./SpiffMe.com - Dashboard_files/functions.js"></script>
+  <script>
+  $(function() {
+  $( "#expiration_date" ).datepicker({ defaultDate: +30 });
+	// getter
+		var defaultDate = $( "#expiration_date" ).datepicker( "option", "defaultDate" );
+		 
+		// setter
+		$( "#expiration_date" ).datepicker( "option", "defaultDate", +30 );
+  });
+  </script>
+</head>
+<body>
+
+<div id="page">
+
+<div id="message"></div>
+
+<header>
+	<div id="header-container">
+		<div id="header">
+			<div id="header-inner">
+				<div id="logo">
+										<p><a href="./SpiffMe.com - Dashboard_files/SpiffMe.com - Dashboard.html"></a></p><h1><a href="./SpiffMe.com - Dashboard_files/SpiffMe.com - Dashboard.html"><img class="logo" src="Images/logo.png"></img></a></h1><p></p>
+				</div><!--logo-->
+				<nav>
+					<div id="navigation">
+						<p style="color: #FFF;">
+						youremail@whoeversloggedin.com | 						<a href="http://www.spiffme.com/signout.php" class="button button2 button3">Log out</a></p>
+					</div><!--navigation-->
+				</nav>
+				<div style="clear: both;"></div>
+			</div><!--header-inner-->
+		</div><!--header-->
+	</div><!--header-container-->
+</header>
+
+<section>
+	<div id="content-container">
+		<div id="content">
+			<div id="content-inner">
+
+
+<nav>
+		<div id="merchant-nav">
+			<ul>
+				<li><a href="http://www.spiffme.com/members/index.php">Dashboard</a></li>
+				<li><a href="http://www.spiffme.com/members/links.php" style="width: 220px;">Your Manufacturers</a></li>
+			</ul>
+			<div style="clear: both;"></div>
+		</div><!--merchant-nav-->
+	</nav>
+
+
+		<form action="http://www.spiffme.com/members/add_company.php" method="POST" id="manufacturer-lookup" class="box">
+			<div class="box-padding">
+				<p><label for="company_name">Add a manufacturer:</label><input type="text" name="company_name" id="company_name" required="" value="company name" onfocus="if(this.value==&#39;company name&#39;){this.value=&#39;&#39;}"> <input type="submit" value="Search" class="button"></p>
+				<div style="clear: both;"></div>
+			</div><!--box-padding-->
+		</form>
+
+
+		<form action="http://www.spiffme.com/members/add_product.php" method="POST" enctype="multipart/form-data" class="box" id="submit-a-spiff">
+			<div class="box-padding">
+				<h1>Submit a new spiff</h1>
+				<p><label for="manufacturer">Enter Manufacturer</label>
+				<select name="manufacturer" id="select-manufacturer"><option value="">--select--</option><option value="g6yQSi6WY3o5cOOsrUB9LIXLxIY8JrWZxvPpNWlLZKQczEE0yg">VariZoom</option></select>				</p><div id="members-products-container"></div>
+				<div id="members-file-upload"></div>
+				<div id="members-product-button"></div>
+			</div><!--box-padding-->
+		</form>
+		
+	<div id="dashboard">
+		
+		
+		<div id="total-spiffs" class="members-snapshot">
+			<h3>Snapshot</h3>
+			<p><span class="bold">Pending:</span> $7<br>
+			<span class="bold">Approved:</span> $0<br>
+			<span class="bold">Denied:</span> $<br>
+			<span class="bold">Paid:</span> $<br></p>
+		</div><!--total-spiffs-->
+		
+
+		<div style="clear: both;"></div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h1 onclick="$(&#39;#box-pending-transactions&#39;).slideToggle();" class="cursor-hand"><img src="./SpiffMe.com - Dashboard_files/plus-icon.png" alt="+">Pending transactions</h1>
+		<div id="box-pending-transactions">
+		<table border="0" cellspacing="0" cellpadding="10" id="merchants-products"><tbody><tr class="table-bold" style="background-color: #DDD;"><td>ID</td><td>Name</td><td>Company</td><td>Product</td><td>Date sold</td><td>View</td><td>Cash value</td><td>Status</td></tr><tr><td>67</td><td>Cooper</td><td>VariZoom</td><td>VZPRO-PZFI</td><td>10/22/2014</td><td><a href="http://www.spiffme.com/members/view_receipt.php?id=67"><img src="./SpiffMe.com - Dashboard_files/paper-clip.png" alt="View"></a></td><td title="7 points">$7</td><td>pending</td></tr><tr class="table-bold" style="background-color: #DDD;"><td>*Total:</td><td></td><td></td><td></td><td></td><td></td><td>$7</td><td></td></tr></tbody></table>		<div style="clear: both;"></div><br>
+		</div><!--box-pending-transactions-->
+		
+		
+		
+		<h1 onclick="$(&#39;#box-approved-transactions&#39;).slideToggle();" class="cursor-hand"><img src="./SpiffMe.com - Dashboard_files/plus-icon.png" alt="+">Approved transactions</h1>
+		<div id="box-approved-transactions" style="display: block;">
+		<table border="0" cellspacing="0" cellpadding="10" id="merchants-products"><tbody><tr class="table-bold" style="background-color: #DDD;"><td>ID</td><td>Name</td><td>Company</td><td>Product</td><td>Date sold</td><td>View</td><td>Cash value</td><td>Status</td></tr><tr><td>7</td><td>Cooper Higgins</td><td></td><td>Stealthy</td><td>2/11/2014</td><td><a href="http://www.spiffme.com/members/view_receipt.php?id=7"><img src="./SpiffMe.com - Dashboard_files/paper-clip.png" alt="View"></a></td><td title="12 points">$0</td><td>approved</td></tr><tr class="table-bold" style="background-color: #DDD;"><td>*Total:</td><td></td><td></td><td></td><td></td><td></td><td>$0</td><td></td></tr></tbody></table>		<div style="clear: both;"></div><br>
+		</div><!--box-approved-transactions-->
+		
+		
+		
+		<h1 onclick="$(&#39;#box-denied-transactions&#39;).slideToggle();" class="cursor-hand"><img src="./SpiffMe.com - Dashboard_files/plus-icon.png" alt="+">Denied transactions</h1>
+		<div id="box-denied-transactions" style="display: block;">
+				<div style="clear: both;"></div><br>
+		</div><!--box-denied-transactions-->
+		
+		
+		
+		<h1 onclick="$(&#39;#box-paid-transactions&#39;).slideToggle();" class="cursor-hand"><img src="./SpiffMe.com - Dashboard_files/plus-icon.png" alt="+">Paid transactions</h1>
+		<div id="box-paid-transactions" style="display: block;">
+				<div style="clear: both;"></div><br>
+		</div><!--box-paid-transactions-->
+		
+		
+		
+		
+	</div><!--dashboard-->
+	
+	
+
+
+
+
+
+
+
+
+			</div><!--content-inner-->
+		</div><!--content-->
+	</div><!--content-container-->
+</section>
+
+</div><!--page-->
+
+<footer>
+	<div class="footer">
+		<p>SpiffMe&copy; LLC all rights reserved 2014  I       <a href="mailto:support@spiffme.com" target="_top">
+SUPPORT</a>         I           <a href="./Terms.html">TERMS</a>         I           FAQ I</p>
+	</div>
+</footer>
+
+
+
+
+
+</body></html>

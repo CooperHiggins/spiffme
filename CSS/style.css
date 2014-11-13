@@ -1,0 +1,789 @@
+/*
+code for bottom footer text
+html, body, div#page {
+  height: 100%;
+
+}
+*/
+
+/*div#page {
+  height: auto;
+  min-height: 100%;
+}*/
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #262626;
+  color: whitesmoke;
+
+
+
+}
+
+h2 .boxes{
+  width: 33.3%;
+  height: 33.0% 
+   
+   
+}
+
+
+
+
+.signup1{
+    background-color: grey;
+    height: 20%;
+    width: 20%;
+    padding: 30px;
+    margin: 10px;
+    position: absolute;
+}
+
+
+.signup2{
+    background-color: grey;
+    height: 20%;
+    width: 20%;
+    padding: 30px;
+    margin: 10px;
+}
+
+.signup3{
+    background-color: grey;
+    height: 20%;
+    width: 20%;
+    padding: 30px;
+    margin: 10px;
+}
+
+
+#signup-manufacturer{
+    background-color: grey;
+    height: 20%;
+    width: 20%;
+    padding: 30px;
+}
+
+#signup-resellers{
+    background-color: grey;
+    height: 20%;
+    width: 20%;
+    padding: 30px;
+}
+
+/* default styles */
+a {
+  color: #9AC838;
+  color: green;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+label {
+  float: left;
+  padding-top: 8px;
+  margin-right: 12px;
+  display: block;
+  width: 200px;
+  text-align: right;
+  font-size: 1.8em;
+}
+
+table {
+  width: 100%;
+}
+
+table td.merchants-price {
+  text-align: right;
+}
+
+table tr:nth-child(odd) {
+  background-color: rgba(100, 100, 100, 0.1);
+}
+
+table tr:first-child {
+  background-color: #DDDDDD;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+textarea {
+  font-family: Arial, sans-serif;
+  min-width: 400px;
+  min-height: 200px;
+  padding: 4px;
+  font-size: 1em;
+}
+
+h1 img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.cursor-hand {
+  cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  label {
+    text-align: left;
+    width: auto;
+    display: block;
+    float: none;
+  }
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="number"], input[type="tel"], input[type="password"] {
+  padding: 6px;
+  width: 300px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 350px) {
+  input[type="text"], input[type="email"], input[type="url"], input[type="number"], input[type="tel"], input[type="password"] {
+    padding: 6px;
+    width: 200px;
+    font-size: 16px;
+  }
+}
+
+select {
+  width: 300px;
+  font-size: 18px;
+  padding: 4px;
+}
+
+.button {
+  background-color: #30E620;
+  color: #000;
+  padding: 8px;
+  min-width: 100px;
+  -webkit-border-radius: 10px 10px 10px 10px !important;
+  border-radius: 0px  !important;
+  border: 1px solid #333 !important;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.button:hover {
+  background-color: #33FF20;
+  border: 1px solid #111;
+}
+
+.message-error {
+  margin: 24px;
+  padding: 24px;
+  border: 1px solid #333;
+  background-color: #FFF;
+  color: #000;
+}
+
+
+
+
+
+.width-auto {
+  width: auto !important;
+}
+
+
+
+
+/* header */
+
+div#header-container {
+  background-color: #262626;
+  text-align: center;
+}
+
+div#header {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1360px;
+}
+
+
+div#header div, div#header p {
+  margin: 0;
+  padding: 0;
+}
+
+div#header h1 {
+  margin: 0;
+}
+
+div#header p {
+  margin-top: 12px;
+}
+
+div#header-inner {
+  text-align: left;
+  padding: 12px 0px 12px 0px;
+}
+
+div#logo {
+  float: left;
+}
+
+div#logo a {
+  text-decoration: none;
+  color: #2FE626;
+}
+
+.top-bar{
+  height:80px;
+}
+
+/*navigation*/
+/* color: #FFF !important; */
+
+
+div#navigation {
+  float: right;
+  max-width: 380px;
+  text-align: center;
+  padding-right: 0px;
+  font-style: none;
+  color: #23A434;
+}
+ 
+ 
+
+ 
+
+
+
+/* header - responsive */
+
+
+
+
+
+@media screen and (max-width: 980px) {
+  div#header-inner {
+    padding-left: 12px;
+  }
+  
+  div#navigation {
+    padding-right: 12px;
+  }
+}
+
+.trade {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+/* content */
+
+div#content-container {
+  background-position: center top;
+  min-height: 480px;
+}
+
+div#content-container a {
+  text-decoration: underline;
+}
+
+div#content {
+  max-width: 1278px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div#content-inner {
+  text-align: left;
+}
+
+div#content-inner h1:first-child {
+  margin-top: 48px;
+}
+
+/* content - responsive */
+
+@media screen and (max-width: 980px) {
+  div#content-inner {
+    padding: 12px;
+  }
+}
+
+#slides{
+  display: ;
+}
+
+
+
+
+/* home page */
+
+h2{
+  color: whitesmoke;
+}
+
+img.logo{
+  width: 250px;
+  height: 80px;
+}
+
+
+
+.salesreps{
+  background-color: black;
+  height:330px;
+  width: 310px;
+  padding: 30px;
+  margin: 55px;
+  font-size: 2.0em;
+  float: right;
+  color: white;
+}
+
+
+.salesreps-p{
+  font-size: .75em;
+}
+
+h1.home-page-h1 {
+  text-align: left;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2.1em;
+}
+
+div#home-page-content {
+}
+
+.home-page-box {
+  display: block;
+  text-align: left;
+}
+
+.home-page-padding {
+  padding: 0px;
+}
+
+.home-page-box-border {
+  -webkit-border-radius: 16px 16px 16px 16px;
+  border-radius: 0px;
+  
+  height:250px;
+  width:250px;
+  background-color: black;
+
+}
+
+
+ul.plans-list{
+  text-decoration: none;
+}
+
+.home-page-box p {
+  margin-bottom: 64px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media screen and (min-width: 600px) {
+  .home-page-box {
+    float: left;
+    width: 50%;
+  }
+
+  .home-page-padding {
+    padding: 48px;
+  }
+}
+
+p.join-free-text {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+h1#search-title{
+  padding: 10px
+  margin-bottom: 1.875rem;
+
+}
+
+
+div.search-box{
+  background-color: black;
+  padding: 10px;
+  margin:30px;
+}
+
+td{
+  background-color: black;
+  padding-left: 50px;
+  margin:30px;
+}
+
+
+/* sign up form */
+
+form#signup-form {
+  margin-top: 48px;
+}
+
+label[for="agree_terms"] {
+  padding-top: 2px;
+}
+
+
+
+
+
+
+
+
+/* dashboard */
+
+div#dashboard h1 {
+  border-bottom: 2px solid #FFF;
+  margin-top: 48px;
+}
+
+div#dashboard form#products label {
+  display: normal;
+  float: none;
+  width: auto;
+  text-align: left;
+}
+
+form#products div.input-container {
+  float: none;
+}
+
+form#products input[type="text"] {
+  width: 90%;
+}
+
+form#products .button {
+  margin-top: 28px;
+}
+
+table {
+  margin-bottom: 48px;
+}
+
+tr.merchants-products-title {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* dashboard - responsive */
+
+@media screen and (max-width: 960px) {
+  form#products div.input-container {
+    float: none;
+    width: 500px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  form#products input[type="text"] {
+    width: 300px;
+  }
+  form#products div.input-container {
+    width: auto;
+  }
+}
+
+
+
+
+
+/* receipt */
+
+img.receipt {
+  max-width: 300px;
+}
+
+
+td.rewards-amount {
+  text-align: right;
+}
+
+tr.table-bold {
+  font-weight: bold;
+}
+
+span.input-help {
+  color: #888;
+  font-size: 14px;
+}
+
+
+/* merchant dashboard */
+
+div#merchant-nav a {
+  float: left;
+  display: block;
+  width: 140px;
+  padding: 6px;
+  background-color: #23E000;
+  text-align: center;
+  border-right: 1px solid #FFF;
+  color: black;
+  background-color: #22DE00;
+  text-decoration: none;
+  font-style: bold;
+}
+
+div#merchant-nav a:hover {
+  color: #000;
+  background-color: gray;
+}
+
+div#merchant-nav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+div#merchant-nav li {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+
+.box {
+  -webkit-border-radius: 16px 16px 16px 16px;
+  border-radius: 16px 16px 16px 16px;
+  background-color: #EEE;
+  border: 2px solid #000;
+  margin-top: 48px;
+}
+
+.box-padding {
+  padding: 24px;
+  background-color: black;
+}
+
+.box h1 {
+  border-bottom: 0px !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+
+#message {
+  background-color: #FFF;
+  border: 8px solid #FF2639;
+  border-top: none;
+  display: none;
+  position: fixed;
+  width: 300px;
+  text-align: center;
+  padding: 24px;
+  top: 0px;
+  left: 50%;
+  margin-left: -150px;
+}
+
+#total-spiffs {
+  background-color: #DDD;
+  padding: 24px;
+  float: right;
+  width: 200px;
+  font-size: 18px;
+  -webkit-border-radius: 16px 16px 16px 16px;
+  border-radius: 16px 16px 16px 16px;
+  background-color: black;
+  border: 2px solid #000;
+}
+
+#manufacturer-lookup {
+}
+
+#manufacturer-lookup input {
+  width: 200px;
+}
+
+#manufacturer-lookup label {
+  text-align: left;
+  float: none;
+}
+
+.table-header {
+  background-color: #DDDDDD !important;
+  font-weight: bold;
+}
+
+.search-box {
+  float: right;
+  text-align: right;
+}
+
+form.search-form {
+  display: none;
+}
+
+form.search-form input {
+  width: 200px;
+}
+
+form.search-form input[type="submit"] {
+  width: 60px;
+}
+
+.merchant-receipt-section {
+  background-color: #DDD;
+  margin-top: 24px;
+}
+
+.merchant-receipt-section p {
+  padding: 24px;
+  margin: 0px;
+}
+
+#merchant-reason-denied{
+  display: none;
+}
+
+
+
+
+
+
+
+
+/* print */
+
+@media print {
+  nav {
+    display: none;
+  }
+  
+  div#logo a {
+    color: #000;
+    
+  }
+  
+  .print-hide {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+/* footer */
+
+/*
+#footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  margin-top: -3em;
+  text-align: center;
+  overflow: hidden;
+}
+*/
+
+.footer {
+  float: left;
+  margin-top: 230px;
+}
+
+div.footer p {
+  margin-left: auto;
+  padding: 0px;
+}
+
+div.first_footer p {
+  float:right;
+  padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+/* Page: Billing */
+
+div#page-billing label {
+  float: none;
+  display: normal;
+  width: auto;
+  margin: auto;
+  padding: auto;
+  text-align: left;
+}
+
+div#page-billing input {
+  width: auto;
+}
+
+
+#submit-a-spiff {
+  float: right;
+}
+
+
+.members-snapshot {
+  float: left !important;
+  margin-top: 48px;
+  padding: 12px !important;
+}
+
+.members-snapshot h3 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.members-snapshot p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+
+/* merchants add product page */
+.short {
+  width: 80px;
+}
+
+
+
+
+
+
+
+/* signin page */
+
+.signin-forgot-password {
+  margin-top: 44px;
+}

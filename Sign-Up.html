@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)file:///Users/Cooper/Documents/spiffme/SpiffMe_files/Signin.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>SpiffMe I Sign in</title>
+<meta name="title" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+<link href="CSS/style.css" rel="stylesheet" type="text/css">
+<script src="file:///Users/Cooper/Documents/spiffme/SpiffMe_files/Signin_files/jquery.min.js"></script>
+<script src="file:///Users/Cooper/Documents/spiffme/SpiffMe_files/Signin_files/jquery-ui.js"></script>
+<script src="file:///Users/Cooper/Documents/spiffme/SpiffMe_files/Signin_files/functions.js"></script>
+  <script>
+  $(function() {
+  $( "#expiration_date" ).datepicker({ defaultDate: +30 });
+	// getter
+		var defaultDate = $( "#expiration_date" ).datepicker( "option", "defaultDate" );
+		 
+		// setter
+		$( "#expiration_date" ).datepicker( "option", "defaultDate", +30 );
+  });
+  </script>
+</head>
+<body>
+
+<div id="page">
+
+<div id="message"></div>
+
+<header>
+	<div id="header-container">
+		<div id="header">
+			<div id="header-inner">
+				<div id="logo">
+								<a href="index.html"><img src="Images/spiffMenewlogo.png" style="width:250px; height:80px;"></a>		
+				</div><!--logo-->
+				<nav>
+					<div id="navigation">
+						<p style="color: #FFF;">
+
+							<ul>
+					<li>LOGIN</li>
+				</ul>
+												</p>
+					</div><!--navigation-->
+				</nav>
+				<div style="clear: both;"></div>
+			</div><!--header-inner-->
+		</div><!--header-->
+	</div><!--header-container-->
+</header>
+
+<section>
+	<div id="content-container">
+		<div id="content">
+			<div id="content-inner">
+
+<h1>Sign in below</h1>
+
+<div id="message-error">
+	</div><!--message-error-->
+
+<form action="http://www.spiffme.com/signin.php" method="POST">
+	<p><label for="email">Email:</label><input type="email" name="email" id="email" maxlength="50" required=""></p><p>
+	</p><p><label for="password">Password:</label><input type="password" name="password" id="password" maxlength="50" required=""></p><p>
+	
+	<input type="hidden" name="account_type" value="members">	
+	
+	
+	</p><p><label for="submit"></label><input type="submit" name="submit" id="submit" value="Sign in" class="button" maxlength="50"></p><p>
+</p></form>
+
+<!-- reset password link -->
+<p class="signin-forgot-password"><a href="http://www.spiffme.com/reset_password.php">Forget your password?</a></p>
+
+<script>
+$(document).ready(function() {
+	$('input#email').focus();
+});
+</script>
+
+
+			</div><!--content-inner-->
+		</div><!--content-->
+	</div><!--content-container-->
+</section>
+
+</div><!--page-->
+
+<footer>
+	<div class="footer">
+		<p>SpiffMe&copy; LLC all rights reserved 2014  I       <a href="mailto:support@spiffme.com" target="_top">
+SUPPORT</a>         I           <a href="./Terms.html">TERMS</a>         I           FAQ</p>
+	</div>
+</footer>
+
+
+
+
+
+</body></html>
