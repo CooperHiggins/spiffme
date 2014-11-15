@@ -1,62 +1,87 @@
 <!DOCTYPE html>
-<!-- saved from url=(0046)http://www.spiffme.com/signup_manufacturer.php -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>SpiffMe.com - Manufacturer Signup</title>
-<meta name="title" content="">
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-<link href="./style.css" rel="stylesheet" type="text/css">
-<script src="./Manufacture_files/jquery.min.js"></script>
-<script src="./Manufacture_files/jquery-ui.js"></script>
-<script src="./Manufacture_files/functions.js"></script>
-  <script>
-  $(function() {
-  $( "#expiration_date" ).datepicker({ defaultDate: +30 });
-	// getter
-		var defaultDate = $( "#expiration_date" ).datepicker( "option", "defaultDate" );
-		 
-		// setter
-		$( "#expiration_date" ).datepicker( "option", "defaultDate", +30 );
-  });
-  </script>
+<!-- saved from url=(0049)file:///Users/Cooper/Desktop/spiffme/SpiffMe.html -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<title>SpiffMe I The Premier Singles Spiff Management Source</title>
+
+		<meta name="title" content="">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+
+
+
+		
+		<!-- Google Font: Undecided -->
+		 <link href='http://fonts.googleapis.com/css?family=Cabin|Roboto' rel='stylesheet' type='text/css'>
+
+
+
+
+		<!-- foundation CSS -->
+		 <link href='CSS/normalize.css' rel='stylesheet' type='text/css'> 
+		 <link href='CSS/foundation.min.css' rel='stylesheet' type='text/css'>
+
+
+		<!-- My CSS-->
+		 <link href="CSS/style.css" rel="stylesheet" type="text/css">
+
+
+		 <!-- Slick.js -->
+        <script src='JS/slick.min.js'> </script>
+        <!-- you do not have to edit this file ever. -->
+        <link rel="stylesheet" href="CSS/slides.css">
+
 </head>
 <body>
 
-<div id="page">
+		
 
-<div id="message"></div>
+		<div id="message"></div>
 
-<header>
-	<div id="header-container">
-		<div id="header">
-			<div id="header-inner">
-				<div id="logo">
-										<p><a href="file:///Users/Cooper/Desktop/spiffme/SpiffMe_files/SpiffMe.html"></a></p><h1><a href="file:///Users/Cooper/Desktop/spiffme/SpiffMe_files/SpiffMe.html"><img src="spiffMenewlogo.png" alt="HTML5 Icon" style="width:200px;height:60px"></a></h1><p></p>
-				</div><!--logo-->
-				<div id="welcome">
-					
-				</div>
-				<nav>
-					<div id="navigation">
-						<ul>
-							<li> <a href="index.html">Home</a></li>
+
+
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="index.html"><img class="logo" src="Images/logo.png"></img></a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      
+      <li class="has-dropdown">
+        <a href="#">LOGIN</a>
+        <ul class="dropdown">
+          <li><a href="login-manufacturer.html">Manufacturers</a></li>
+          <li><a href="login-salesreps.html">Sales Reps</a></li>
+          <li><a href="login-resellers.html">Resellers/Sellers</a></li>
+          
+        </ul>
+      </li>
+    </ul>
+
+    
+  </section>
+</nav>
+
+		
 							
-					 	</ul>
-					</div><!--navigation-->
-				</nav>
-				<div style="clear: both;"></div>
-			</div><!--header-inner-->
-		</div><!--header-->
-	</div><!--header-container-->
-</header>
+								
+							
+						
+			
 
-<section>
-	<div id="content-container">
-		<div id="content">
-			<div id="content-inner">
 
-<h1>Sign Up as a Manufacturer</h1>
+
+				<h1>Sign Up as a Re-Seller</h1>
 
 <p>Sign up below to become a part of our program.</p>
 
@@ -84,28 +109,62 @@
 	<div style="clear: both;"></div>
 	<p><label for="agree_terms"></label><input type="submit" class="button"></p>
 </form>
-<script>
-$(document).ready(function() {
-	$('input#company').focus();
-});
-</script>
-
-			</div><!--content-inner-->
-		</div><!--content-->
-	</div><!--content-container-->
-</section>
-
-</div><!--page-->
 
 <footer>
 	<div class="footer">
 		<p>SpiffMe&copy; LLC all rights reserved 2014  I       <a href="mailto:support@spiffme.com" target="_top">
-Support</a>         I           <a href="./Terms.html">Terms</a>         I           FAQ</p>
+E-MAIL </a> I           <a href="./Terms.html">TERMS</a>         I   <a href="/FAQ.html">FAQ </a>I</p>
 	</div>
 </footer>
 
+<!-- JavaScripts -->
+
+        <!-- jQuery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+        <!-- Our JS -->
+         
+        <!-- TODO link to our script.js file -->
+        <script src="JS/functions.js"></script>
+
+        <!-- Slick.js Slideshow -->
+        
+        <!-- TODO link to the slick.min.js file -->
+        
+        <script src="JS/slick.min.js"></script>
+        <script type="text/javascript">
+  
+        $('#slides').slick({
+            autoplay: true, 
+            autoplaySpeed: 3000, 
+            fade: true, 
+            cssEase: 'linear'
+        });
+        </script>
+
+        <script src="JS/foundation.min.js"></script>
+        <script>
+  			$(document).foundation();
+		</script>
 
 
 
 
-</body></html>
+  
+  
+  
+  <!-- Other JS plugins can be included here -->
+
+  
+
+
+  
+    
+  
+    
+        
+</body>
+
+
+
+</html>
