@@ -213,6 +213,11 @@ select {
 
 /* header */
 
+
+
+
+
+
 div#header-container {
   background-color: #262626;
   text-align: center;
@@ -294,6 +299,7 @@ div#navigation {
 .trade {
   font-size: 20px;
 }
+
 
 
 
