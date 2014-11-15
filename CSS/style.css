@@ -349,6 +349,10 @@ div#content-inner h1:first-child {
 
 /* home page */
 
+h3{
+  color: whitesmoke;
+}
+
 h2{
   color: whitesmoke;
 }
