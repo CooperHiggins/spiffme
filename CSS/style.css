@@ -84,7 +84,10 @@ h2 .boxes{
 
 /* default styles */
 
-
+.top-bar {
+height: 45px;
+background-color: black;
+}
 
 .top-bar-section li:not(.has-form) a:not(.button) {
 padding: 0 15px;
@@ -99,7 +102,7 @@ background: #33FF20;
 .top-bar-section ul li>a {
 display: block;
 width: 100%;
-color: black;
+color: green;
 padding: 12px 0 12px 0;
 padding-left: 15px;
 font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
@@ -124,13 +127,9 @@ right: 0;
 }
 
 a {
-  
-  color: #23A434;
+  color: #9AC838;
+  color: green;
   text-decoration: none;
-}
-
-a:hover, a:focus {
-color: #27E900;
 }
 
 img {
@@ -408,6 +407,15 @@ img.logo{
   margin: -10px;
 }
 
+.slick-prev, .slick-next:before {
+font-family: "slick";
+font-size: 20px;
+line-height: 1;
+color: white;
+opacity: 0.75;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
 
 
 .salesreps{
@@ -770,17 +778,6 @@ form.search-form input[type="submit"] {
 */
 
 
-
-div.footer p {
-  margin-left: auto;
-  padding: 0px;
-}
-
-div.first_footer p {
-  float:right;
-  padding: 5px;
-
-}
 
 
 
