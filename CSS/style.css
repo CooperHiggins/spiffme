@@ -84,6 +84,10 @@ h2 .boxes{
 
 /* default styles */
 
+.footer-row{
+  background-color: black;
+}
+
 .top-bar {
 height: 45px;
 background-color: black;
@@ -777,9 +781,15 @@ form.search-form input[type="submit"] {
 }
 */
 
+#footer{
+  background-color: black;
+  width:100%;
+}
 
-
-
+.email{
+  background-color: black;
+  padding: 20px;
+}
 
 
 
