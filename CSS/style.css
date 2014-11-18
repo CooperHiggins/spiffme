@@ -16,6 +16,13 @@ h1{
   color:whitesmoke;
 }
 
+h2{
+  font-size: 1.9em;
+}
+h3{
+  font-size: 1.4em;
+}
+
 
 
 
@@ -374,10 +381,12 @@ div#content {
 
 div#content-inner {
   text-align: left;
+  padding: 50px;
 }
 
 div#content-inner h1:first-child {
   margin-top: 48px;
+  
 }
 
 /* content - responsive */
@@ -424,7 +433,7 @@ opacity: 0.75;
 
 .salesreps{
   background-color: black;
-  height:330px;
+  height:320px;
   width: 310px;
   padding: 30px;
   margin: 55px;
