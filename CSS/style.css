@@ -16,7 +16,7 @@ h1{
   color:whitesmoke;
 }
 
-h2{
+h2#terms{
   font-size: 1.9em;
 }
 h3{
@@ -91,8 +91,18 @@ h2 .boxes{
 
 /* default styles */
 
-.footer-row{
+.footer{
   background-color: black;
+  padding-bottom: 10px;
+  padding: 20px;
+  position: absolute
+  bottom: 0;
+  display: block;
+}
+
+#footer p{
+  margin: 0;
+  padding: 10px;
 }
 
 .top-bar {
@@ -104,6 +114,7 @@ background-color: black;
 padding: 0 15px;
 line-height: 45px;
 background: #33FF20;
+color: black;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -256,7 +267,14 @@ select {
 }
 
 
+a:hover, a:focus {
+color: #27E900;
+}
 
+a {
+color: #23A434;
+text-decoration: none;
+}
 
 
 .width-auto {
