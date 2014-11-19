@@ -91,18 +91,7 @@ h2 .boxes{
 
 /* default styles */
 
-.footer{
-  background-color: black;
-  padding-bottom: 10px;
-  padding: 20px;
-  position: absolute
-  bottom: 0;
-  display: block;
-}
 
-#footer p{
-  margin: 0;
-  padding: 10px;
 }
 
 .top-bar {
@@ -113,12 +102,12 @@ background-color: black;
 .top-bar-section li:not(.has-form) a:not(.button) {
 padding: 0 15px;
 line-height: 45px;
-background: #209630;
+background: #26B238;
 color: black;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-background: #209630;
+background: #26B238;
 }
 
 .top-bar-section ul li>a {
@@ -254,7 +243,7 @@ select {
 }
 
 .button:hover {
-  background-color: #33FF20;
+  background-color: #FB4847;
   border: 1px solid #111;
 }
 
@@ -456,8 +445,9 @@ opacity: 0.75;
   padding: 30px;
   margin: 55px;
   font-size: 2.0em;
-  float: right;
+  float: left;
   color: white;
+
 }
 
 
@@ -539,6 +529,26 @@ td{
   padding-left: 50px;
   margin:30px;
 }
+
+
+/*footer*/
+
+footer{
+
+  background-color: black;
+  position: absolute;
+  bottom: -550px;
+  height: 60px;
+  width: 100%;
+  margin: 0;
+
+  
+
+}
+
+
+
+
 
 
 /* sign up form */
@@ -796,22 +806,8 @@ form.search-form input[type="submit"] {
 
 /* footer */
 
-/*
-#footer {
-  clear: both;
-  position: relative;
-  z-index: 10;
-  height: 3em;
-  margin-top: -3em;
-  text-align: center;
-  overflow: hidden;
-}
-*/
 
-#footer{
-  background-color: black;
-  width:100%;
-}
+
 
 .email{
   background-color: black;
