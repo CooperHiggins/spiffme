@@ -17,10 +17,16 @@ h1{
   font-family: Questrial, sans-serif;
 }
 
+h2{
+  font-size: 1.0em;
+  font-family: Questrial, sans-serif;
+}
+
 h2#terms{
   font-size: 1.9em;
   font-family: Questrial, sans-serif;
 }
+
 h3{
   font-size: 1.4em;
   font-family: Questrial, sans-serif;
@@ -43,7 +49,8 @@ body {
 
 h2 .boxes{
   width: 33.3%;
-  height: 33.0% 
+  height: 33.0%;
+  font-family: Questrial; 
   
    
    
@@ -542,12 +549,24 @@ footer{
 
   background-color: black;
   position: absolute;
-  bottom: -550px;
+  bottom: -750px;
   height: 60px;
   width: 100%;
   margin: 0;
+}
 
-  
+p footer{
+  position: absolute;
+  bottom: -660px;
+}
+
+footer#terms{
+background-color: black;
+  position: absolute;
+  bottom: -1350px;
+  height: 60px;
+  width: 100%;
+  margin: 0;
 
 }
 
