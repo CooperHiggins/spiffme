@@ -566,11 +566,23 @@ footer{
 
   background-color: black;
   position: absolute;
-  bottom: -1750px;
+  bottom: -950px;
   height: 60px;
   width: 100%;
   margin: 0;
 }
+
+footer#index{
+
+  background-color: black;
+  position: absolute;
+  bottom: -950px;
+  height: 60px;
+  width: 100%;
+  margin: 0;
+}
+
+
 
 p footer{
   position: absolute;
@@ -580,7 +592,7 @@ p footer{
 footer#terms{
 background-color: black;
   position: absolute;
-  bottom: -1350px;
+  bottom: -1550px;
   height: 60px;
   width: 100%;
   margin: 0;
